@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"HTML-CSS-JS Prettify",
+		"jQuery",
+		"Package Control"
+	]
+}

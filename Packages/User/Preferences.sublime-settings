@@ -1,0 +1,10 @@
+{
+	"update_check":false,
+	"font_size": 13,
+	"ignored_packages":
+	[
+	"Vintage"
+	],
+	"theme": "Default.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}

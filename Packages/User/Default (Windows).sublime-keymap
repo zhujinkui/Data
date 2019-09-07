@@ -1,0 +1,37 @@
+[
+	//对齐符号
+	{ "keys": ["ctrl+alt+x"], "command": "alignment" },
+
+	//光标回到首行
+	{ "keys": ["ctrl+alt+backspace"], "command":"move_to", "args": {"to": "bol","extend": false} },
+	//光标回到末尾
+	{ "keys": ["ctrl+alt+enter"], "command":"move_to", "args": {"to": "eol","extend": false} },
+
+	//向左全选中
+	{ "keys": ["ctrl+alt+n"], "command":"move_to", "args": {"to": "bol","extend": true} },
+	//向右全选中
+	{ "keys": ["ctrl+alt+m"], "command":"move_to", "args": {"to": "eol","extend": true} },
+
+	//向上翻页
+	{ "keys": ["ctrl+alt+pageup"], "command":"scroll_lines", "args": {"amount": 1.0 } },
+	//向下翻页
+	{ "keys": ["ctrl+alt+pagedown"], "command":"scroll_lines", "args": {"amount": -1.0 } },
+
+	//向上
+	{ "keys": ["ctrl+alt+i"], "command": "move","args": {"by": "lines", "forward":false} },
+	//向右
+	{ "keys": ["ctrl+alt+l"], "command": "move","args": {"by": "characters", "forward":true} },
+	//向下
+	{ "keys": ["ctrl+alt+k"], "command": "move","args": {"by": "lines", "forward":true} },
+	//向左
+	{ "keys": ["ctrl+alt+j"], "command": "move","args": {"by": "characters", "forward":false} },
+
+	//向左复制
+	{ "keys": ["ctrl+alt+o"], "command":"move", "args": {"by": "characters","forward": false, "extend": true} },
+	//向右复制
+	{ "keys": ["ctrl+alt+p"], "command":"move", "args": {"by": "characters","forward": true, "extend": true} },
+	//向上复制
+	{ "keys": ["ctrl+alt+y"], "command":"move", "args": {"by": "lines","forward": false, "extend": true} },
+	//向下复制
+	{ "keys": ["ctrl+alt+u"], "command":"move", "args": {"by": "lines","forward": true, "extend": true} }
+]
